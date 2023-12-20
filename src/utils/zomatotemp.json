@@ -1,0 +1,1887 @@
+{
+    "sections": {
+        "SECTION_SEARCH_RESULT": [
+            {
+                "type": "restaurant",
+                "info": {
+                    "resId": 19837749,
+                    "name": "Fish Curry Rice",
+                    "image": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/0\/11170\/eedebb14b8a1c4372c2cfbf4e8dcc922_o2_featured_v2.jpg"
+                    },
+                    "o2FeaturedImage": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/0\/11170\/eedebb14b8a1c4372c2cfbf4e8dcc922_o2_featured_v2.jpg"
+                    },
+                    "rating": {
+                        "has_fake_reviews": 0,
+                        "aggregate_rating": "3.9",
+                        "rating_text": "3.9",
+                        "rating_subtitle": "Good",
+                        "rating_color": "9ACD32",
+                        "votes": "431",
+                        "subtext": "REVIEWS",
+                        "is_new": false
+                    },
+                    "ratingNew": {
+                        "newlyOpenedObj": null,
+                        "suspiciousReviewObj": null,
+                        "ratings": {
+                            "DINING": {
+                                "rating_type": "DINING",
+                                "rating": "3.7",
+                                "reviewCount": "36",
+                                "reviewTextSmall": "36 Reviews",
+                                "subtext": "36 Dining Reviews",
+                                "color": "#1C1C1C",
+                                "ratingV2": "3.7",
+                                "subtitle": "DINING",
+                                "sideSubTitle": "Dining Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "600"
+                                }
+                            },
+                            "DELIVERY": {
+                                "rating_type": "DELIVERY",
+                                "rating": "4.0",
+                                "reviewCount": "395",
+                                "reviewTextSmall": "395 Reviews",
+                                "subtext": "395 Delivery Reviews",
+                                "color": "#E23744",
+                                "ratingV2": "4.0",
+                                "subtitle": "DELIVERY",
+                                "sideSubTitle": "Delivery Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "700"
+                                },
+                                "newOnDelivery": false
+                            }
+                        }
+                    },
+                    "cft": {
+                        "text": "\u20b9950 for two"
+                    },
+                    "cfo": {
+                        "text": "\u20b9450 for one"
+                    },
+                    "locality": {
+                        "name": "Viman Nagar, Pune",
+                        "address": "Plot 108, Survey 199, Datsung House, Opposite Sky Station, Viman Nagar, Pune",
+                        "localityUrl": "pune\/viman-nagar-restaurants"
+                    },
+                    "timing": {
+                        "text": "",
+                        "color": ""
+                    },
+                    "cuisine": [
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODNcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/sea-food\/",
+                            "name": "Seafood"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAyXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/maharashtrian\/",
+                            "name": "Maharashtrian"
+                        }
+                    ],
+                    "should_ban_ugc": false,
+                    "costText": {
+                        "text": "\u20b9450 for one"
+                    }
+                },
+                "order": {
+                    "deliveryTime": "34 min",
+                    "isServiceable": true,
+                    "hasOnlineOrdering": true,
+                    "actionInfo": {
+                        "text": "Order Now",
+                        "clickUrl": "\/pune\/fish-curry-rice-viman-nagar\/order"
+                    }
+                },
+                "gold": [],
+                "takeaway": [],
+                "cardAction": {
+                    "text": "",
+                    "clickUrl": "\/pune\/fish-curry-rice-viman-nagar\/order",
+                    "clickActionDeeplink": ""
+                },
+                "distance": "224 m",
+                "isPromoted": false,
+                "promotedText": "",
+                "trackingData": [
+                    {
+                        "table_name": "zsearch_events_log",
+                        "payload": "{\"search_id\":\"a6470192-5a31-4d0c-af2b-98bafc174292\",\"location_type\":\"delivery_cell\",\"location_id\":\"4306216701185228800\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19837749\",\"element_type\":\"listing\",\"rank\":1}",
+                        "event_names": {
+                            "tap": "{\"action\":\"tap\"}",
+                            "impression": "{\"action\":\"impression\"}"
+                        }
+                    }
+                ],
+                "allCTA": [],
+                "promoOffer": "",
+                "checkBulkOffers": true,
+                "bulkOffers": [
+                    {
+                        "text": "Free Kharvas Regular",
+                        "color": {
+                            "tint": "500",
+                            "type": "blue"
+                        }
+                    }
+                ],
+                "isDisabled": false,
+                "bottomContainers": [
+                    {
+                        "image": {
+                            "url": "https:\/\/b.zmtcdn.com\/data\/o2_assets\/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+                            "aspect_ratio": 2.66666666667
+                        },
+                        "text": "Follows all Max Safety measures to ensure your food is safe"
+                    }
+                ]
+            },
+            {
+                "type": "restaurant",
+                "info": {
+                    "resId": 18778437,
+                    "name": "Signature Fine Dining",
+                    "image": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/7\/18778437\/da3227b8bfb024553193e0492d5c1b44_o2_featured_v2.jpg"
+                    },
+                    "o2FeaturedImage": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/7\/18778437\/da3227b8bfb024553193e0492d5c1b44_o2_featured_v2.jpg"
+                    },
+                    "rating": {
+                        "has_fake_reviews": 0,
+                        "aggregate_rating": "4.3",
+                        "rating_text": "4.3",
+                        "rating_subtitle": "Very Good",
+                        "rating_color": "5BA829",
+                        "votes": "6,151",
+                        "subtext": "REVIEWS",
+                        "is_new": false
+                    },
+                    "ratingNew": {
+                        "newlyOpenedObj": null,
+                        "suspiciousReviewObj": null,
+                        "ratings": {
+                            "DINING": {
+                                "rating_type": "DINING",
+                                "rating": "4.3",
+                                "reviewCount": "897",
+                                "reviewTextSmall": "897 Reviews",
+                                "subtext": "897 Dining Reviews",
+                                "color": "#1C1C1C",
+                                "ratingV2": "4.3",
+                                "subtitle": "DINING",
+                                "sideSubTitle": "Dining Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "700"
+                                }
+                            },
+                            "DELIVERY": {
+                                "rating_type": "DELIVERY",
+                                "rating": "4.2",
+                                "reviewCount": "5,254",
+                                "reviewTextSmall": "5,254 Reviews",
+                                "subtext": "5,254 Delivery Reviews",
+                                "color": "#E23744",
+                                "ratingV2": "4.2",
+                                "subtitle": "DELIVERY",
+                                "sideSubTitle": "Delivery Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "700"
+                                },
+                                "newOnDelivery": false
+                            }
+                        }
+                    },
+                    "cft": {
+                        "text": "\u20b91,600 for two"
+                    },
+                    "cfo": {
+                        "text": "\u20b9450 for one"
+                    },
+                    "locality": {
+                        "name": "Viman Nagar, Pune",
+                        "address": "Survey 206\/3, CTS 92, IND Unit 3, Turning Point NX, Viman Nagar, Pune",
+                        "localityUrl": "pune\/viman-nagar-restaurants"
+                    },
+                    "timing": {
+                        "text": "",
+                        "color": ""
+                    },
+                    "cuisine": [
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/north-indian\/",
+                            "name": "North Indian"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/mughlai\/",
+                            "name": "Mughlai"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/chinese\/",
+                            "name": "Chinese"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODNcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/sea-food\/",
+                            "name": "Seafood"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiN1wiXX0iXQ%3D%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/biryani\/",
+                            "name": "Biryani"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTc4XCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/kebab\/",
+                            "name": "Kebab"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/desserts\/",
+                            "name": "Desserts"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/beverages\/",
+                            "name": "Beverages"
+                        }
+                    ],
+                    "should_ban_ugc": false,
+                    "costText": {
+                        "text": "\u20b9450 for one"
+                    }
+                },
+                "order": {
+                    "deliveryTime": "28 min",
+                    "isServiceable": true,
+                    "hasOnlineOrdering": true,
+                    "actionInfo": {
+                        "text": "Order Now",
+                        "clickUrl": "\/pune\/signature-fine-dining-viman-nagar\/order"
+                    }
+                },
+                "gold": [],
+                "takeaway": [],
+                "cardAction": {
+                    "text": "",
+                    "clickUrl": "\/pune\/signature-fine-dining-viman-nagar\/order",
+                    "clickActionDeeplink": ""
+                },
+                "distance": "429 m",
+                "isPromoted": false,
+                "promotedText": "",
+                "trackingData": [
+                    {
+                        "table_name": "zsearch_events_log",
+                        "payload": "{\"search_id\":\"a6470192-5a31-4d0c-af2b-98bafc174292\",\"location_type\":\"delivery_cell\",\"location_id\":\"4306216701185228800\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"18778437\",\"element_type\":\"listing\",\"rank\":2}",
+                        "event_names": {
+                            "tap": "{\"action\":\"tap\"}",
+                            "impression": "{\"action\":\"impression\"}"
+                        }
+                    }
+                ],
+                "allCTA": [],
+                "promoOffer": "",
+                "checkBulkOffers": true,
+                "bulkOffers": [],
+                "isDisabled": false,
+                "bottomContainers": [
+                    {
+                        "image": {
+                            "url": "https:\/\/b.zmtcdn.com\/data\/o2_assets\/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.png",
+                            "aspect_ratio": 2.0625
+                        },
+                        "text": "Restaurant partner follows WHO protocol"
+                    }
+                ]
+            },
+            {
+                "type": "restaurant",
+                "info": {
+                    "resId": 18819979,
+                    "name": "Pop Tate's",
+                    "image": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/9\/18819979\/6f2fdf3468e941b08c51a406bc50b88c_o2_featured_v2.jpg"
+                    },
+                    "o2FeaturedImage": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/9\/18819979\/6f2fdf3468e941b08c51a406bc50b88c_o2_featured_v2.jpg"
+                    },
+                    "rating": {
+                        "has_fake_reviews": 0,
+                        "aggregate_rating": "4.3",
+                        "rating_text": "4.3",
+                        "rating_subtitle": "Very Good",
+                        "rating_color": "5BA829",
+                        "votes": "3,763",
+                        "subtext": "REVIEWS",
+                        "is_new": false
+                    },
+                    "ratingNew": {
+                        "newlyOpenedObj": null,
+                        "suspiciousReviewObj": null,
+                        "ratings": {
+                            "DINING": {
+                                "rating_type": "DINING",
+                                "rating": "4.7",
+                                "reviewCount": "3,155",
+                                "reviewTextSmall": "3,155 Reviews",
+                                "subtext": "3,155 Dining Reviews",
+                                "color": "#1C1C1C",
+                                "ratingV2": "4.7",
+                                "subtitle": "DINING",
+                                "sideSubTitle": "Dining Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "800"
+                                }
+                            },
+                            "DELIVERY": {
+                                "rating_type": "DELIVERY",
+                                "rating": "3.9",
+                                "reviewCount": "608",
+                                "reviewTextSmall": "608 Reviews",
+                                "subtext": "608 Delivery Reviews",
+                                "color": "#E23744",
+                                "ratingV2": "3.9",
+                                "subtitle": "DELIVERY",
+                                "sideSubTitle": "Delivery Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "600"
+                                },
+                                "newOnDelivery": false
+                            }
+                        }
+                    },
+                    "cft": {
+                        "text": "\u20b91,400 for two"
+                    },
+                    "cfo": {
+                        "text": "\u20b9450 for one"
+                    },
+                    "locality": {
+                        "name": "Phoenix Market City, Viman Nagar, Pune",
+                        "address": "Shop T08, 3rd Floor, Phoenix Market City Mall, Viman Nagar, Pune",
+                        "localityUrl": "pune\/restaurants\/in\/phoenix-market-city-viman-nagar"
+                    },
+                    "timing": {
+                        "text": "",
+                        "color": ""
+                    },
+                    "cuisine": [
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/north-indian\/",
+                            "name": "North Indian"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjVcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/chinese\/",
+                            "name": "Chinese"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTVcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/italian\/",
+                            "name": "Italian"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiN1wiXX0iXQ%3D%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/biryani\/",
+                            "name": "Biryani"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/pizza\/",
+                            "name": "Pizza"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA2NFwiXX0iXQ%3D%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/pasta\/",
+                            "name": "Pasta"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/fast-food\/",
+                            "name": "Fast Food"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/beverages\/",
+                            "name": "Beverages"
+                        }
+                    ],
+                    "should_ban_ugc": false,
+                    "costText": {
+                        "text": "\u20b9450 for one"
+                    }
+                },
+                "order": {
+                    "deliveryTime": "36 min",
+                    "isServiceable": true,
+                    "hasOnlineOrdering": true,
+                    "actionInfo": {
+                        "text": "Order Now",
+                        "clickUrl": "\/pune\/pop-tates-viman-nagar\/order"
+                    }
+                },
+                "gold": [],
+                "takeaway": [],
+                "cardAction": {
+                    "text": "",
+                    "clickUrl": "\/pune\/pop-tates-viman-nagar\/order",
+                    "clickActionDeeplink": ""
+                },
+                "distance": "555 m",
+                "isPromoted": false,
+                "promotedText": "",
+                "trackingData": [
+                    {
+                        "table_name": "zsearch_events_log",
+                        "payload": "{\"search_id\":\"a6470192-5a31-4d0c-af2b-98bafc174292\",\"location_type\":\"delivery_cell\",\"location_id\":\"4306216701185228800\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"18819979\",\"element_type\":\"listing\",\"rank\":3}",
+                        "event_names": {
+                            "tap": "{\"action\":\"tap\"}",
+                            "impression": "{\"action\":\"impression\"}"
+                        }
+                    }
+                ],
+                "allCTA": [],
+                "promoOffer": "",
+                "checkBulkOffers": true,
+                "bulkOffers": [],
+                "isDisabled": false,
+                "bottomContainers": [
+                    {
+                        "image": {
+                            "url": "https:\/\/b.zmtcdn.com\/data\/o2_assets\/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.png",
+                            "aspect_ratio": 2.0625
+                        },
+                        "text": "Restaurant partner follows WHO protocol"
+                    }
+                ]
+            },
+            {
+                "type": "restaurant",
+                "info": {
+                    "resId": 18422341,
+                    "name": "MOJO Pizza - 2X Toppings",
+                    "image": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/0\/18401590\/4e2654de938e0657dd8b1ca3efb05f50_o2_featured_v2.jpg"
+                    },
+                    "o2FeaturedImage": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/0\/18401590\/4e2654de938e0657dd8b1ca3efb05f50_o2_featured_v2.jpg"
+                    },
+                    "rating": {
+                        "has_fake_reviews": 0,
+                        "aggregate_rating": "4.5",
+                        "rating_text": "4.5",
+                        "rating_subtitle": "Excellent",
+                        "rating_color": "3F7E00",
+                        "votes": "8,022",
+                        "subtext": "REVIEWS",
+                        "is_new": false
+                    },
+                    "ratingNew": {
+                        "newlyOpenedObj": null,
+                        "suspiciousReviewObj": null,
+                        "ratings": {
+                            "DINING": {
+                                "rating_type": "DINING",
+                                "rating": "",
+                                "reviewCount": "0",
+                                "reviewTextSmall": "0 Reviews",
+                                "subtext": "Does not offer Dining",
+                                "color": "",
+                                "ratingV2": "-",
+                                "subtitle": "DINING",
+                                "sideSubTitle": "Dining Reviews",
+                                "bgColorV2": {
+                                    "type": "grey",
+                                    "tint": "500"
+                                }
+                            },
+                            "DELIVERY": {
+                                "rating_type": "DELIVERY",
+                                "rating": "4.5",
+                                "reviewCount": "8,022",
+                                "reviewTextSmall": "8,022 Reviews",
+                                "subtext": "8,022 Delivery Reviews",
+                                "color": "#E23744",
+                                "ratingV2": "4.5",
+                                "subtitle": "DELIVERY",
+                                "sideSubTitle": "Delivery Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "800"
+                                },
+                                "newOnDelivery": false
+                            }
+                        }
+                    },
+                    "cft": {
+                        "text": "\u20b9400 for two"
+                    },
+                    "cfo": {
+                        "text": "\u20b9450 for one"
+                    },
+                    "locality": {
+                        "name": "Viman Nagar, Pune",
+                        "address": "Unit 18 and 21, First Floor, Konark Industrial Estate, Plot 11, CTS.86, Lohgaon, Viman Nagar, Pune",
+                        "localityUrl": "pune\/viman-nagar-restaurants"
+                    },
+                    "timing": {
+                        "text": "",
+                        "color": ""
+                    },
+                    "cuisine": [
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/pizza\/",
+                            "name": "Pizza"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTVcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/italian\/",
+                            "name": "Italian"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/fast-food\/",
+                            "name": "Fast Food"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/desserts\/",
+                            "name": "Desserts"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/beverages\/",
+                            "name": "Beverages"
+                        }
+                    ],
+                    "should_ban_ugc": false,
+                    "costText": {
+                        "text": "\u20b9450 for one"
+                    }
+                },
+                "order": {
+                    "deliveryTime": "27 min",
+                    "isServiceable": true,
+                    "hasOnlineOrdering": true,
+                    "actionInfo": {
+                        "text": "Order Now",
+                        "clickUrl": "\/pune\/mojo-pizza-2x-toppings-viman-nagar\/order"
+                    }
+                },
+                "gold": [],
+                "takeaway": [],
+                "cardAction": {
+                    "text": "",
+                    "clickUrl": "\/pune\/mojo-pizza-2x-toppings-viman-nagar\/order",
+                    "clickActionDeeplink": ""
+                },
+                "distance": "385 m",
+                "isPromoted": false,
+                "promotedText": "",
+                "trackingData": [
+                    {
+                        "table_name": "zsearch_events_log",
+                        "payload": "{\"search_id\":\"a6470192-5a31-4d0c-af2b-98bafc174292\",\"location_type\":\"delivery_cell\",\"location_id\":\"4306216701185228800\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"18422341\",\"element_type\":\"listing\",\"rank\":4}",
+                        "event_names": {
+                            "tap": "{\"action\":\"tap\"}",
+                            "impression": "{\"action\":\"impression\"}"
+                        }
+                    }
+                ],
+                "allCTA": [],
+                "promoOffer": "",
+                "checkBulkOffers": true,
+                "bulkOffers": [
+                    {
+                        "text": "\u20b9150 OFF",
+                        "color": {
+                            "tint": "500",
+                            "type": "blue"
+                        }
+                    }
+                ],
+                "isDisabled": false,
+                "bottomContainers": [
+                    {
+                        "image": {
+                            "url": "https:\/\/b.zmtcdn.com\/data\/o2_assets\/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+                            "aspect_ratio": 2.66666666667
+                        },
+                        "text": "Follows all Max Safety measures to ensure your food is safe"
+                    }
+                ]
+            },
+            {
+                "type": "restaurant",
+                "info": {
+                    "resId": 19164132,
+                    "name": "Theobroma",
+                    "image": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/5\/18954495\/0f70b5da7c39fde098a9b67719b37519_o2_featured_v2.jpg"
+                    },
+                    "o2FeaturedImage": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/5\/18954495\/0f70b5da7c39fde098a9b67719b37519_o2_featured_v2.jpg"
+                    },
+                    "rating": {
+                        "has_fake_reviews": 0,
+                        "aggregate_rating": "4.2",
+                        "rating_text": "4.2",
+                        "rating_subtitle": "Very Good",
+                        "rating_color": "5BA829",
+                        "votes": "5,482",
+                        "subtext": "REVIEWS",
+                        "is_new": false
+                    },
+                    "ratingNew": {
+                        "newlyOpenedObj": null,
+                        "suspiciousReviewObj": null,
+                        "ratings": {
+                            "DINING": {
+                                "rating_type": "DINING",
+                                "rating": "4.0",
+                                "reviewCount": "89",
+                                "reviewTextSmall": "89 Reviews",
+                                "subtext": "89 Dining Reviews",
+                                "color": "#1C1C1C",
+                                "ratingV2": "4.0",
+                                "subtitle": "DINING",
+                                "sideSubTitle": "Dining Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "700"
+                                }
+                            },
+                            "DELIVERY": {
+                                "rating_type": "DELIVERY",
+                                "rating": "4.3",
+                                "reviewCount": "5,393",
+                                "reviewTextSmall": "5,393 Reviews",
+                                "subtext": "5,393 Delivery Reviews",
+                                "color": "#E23744",
+                                "ratingV2": "4.3",
+                                "subtitle": "DELIVERY",
+                                "sideSubTitle": "Delivery Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "700"
+                                },
+                                "newOnDelivery": false
+                            }
+                        }
+                    },
+                    "cft": {
+                        "text": "\u20b9500 for two"
+                    },
+                    "cfo": {
+                        "text": "\u20b9450 for one"
+                    },
+                    "locality": {
+                        "name": "Viman Nagar, Pune",
+                        "address": "Unit 02, Sai Apex, Dutta Mandir Chowk, Viman Nagar, Pune",
+                        "localityUrl": "pune\/viman-nagar-restaurants"
+                    },
+                    "timing": {
+                        "text": "",
+                        "color": ""
+                    },
+                    "cuisine": [
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNVwiXX0iXQ%3D%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/bakery\/",
+                            "name": "Bakery"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/desserts\/",
+                            "name": "Desserts"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/fast-food\/",
+                            "name": "Fast Food"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/beverages\/",
+                            "name": "Beverages"
+                        }
+                    ],
+                    "should_ban_ugc": false,
+                    "costText": {
+                        "text": "\u20b9450 for one"
+                    }
+                },
+                "order": {
+                    "deliveryTime": "20 min",
+                    "isServiceable": true,
+                    "hasOnlineOrdering": true,
+                    "actionInfo": {
+                        "text": "Order Now",
+                        "clickUrl": "\/pune\/theobroma-viman-nagar\/order"
+                    }
+                },
+                "gold": [],
+                "takeaway": [],
+                "cardAction": {
+                    "text": "",
+                    "clickUrl": "\/pune\/theobroma-viman-nagar\/order",
+                    "clickActionDeeplink": ""
+                },
+                "distance": "302 m",
+                "isPromoted": false,
+                "promotedText": "",
+                "trackingData": [
+                    {
+                        "table_name": "zsearch_events_log",
+                        "payload": "{\"search_id\":\"a6470192-5a31-4d0c-af2b-98bafc174292\",\"location_type\":\"delivery_cell\",\"location_id\":\"4306216701185228800\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19164132\",\"element_type\":\"listing\",\"rank\":5}",
+                        "event_names": {
+                            "tap": "{\"action\":\"tap\"}",
+                            "impression": "{\"action\":\"impression\"}"
+                        }
+                    }
+                ],
+                "allCTA": [],
+                "promoOffer": "",
+                "checkBulkOffers": true,
+                "bulkOffers": [
+                    {
+                        "text": "10% OFF",
+                        "color": {
+                            "tint": "500",
+                            "type": "blue"
+                        }
+                    }
+                ],
+                "isDisabled": false,
+                "bottomContainers": [
+                    {
+                        "image": {
+                            "url": "https:\/\/b.zmtcdn.com\/data\/o2_assets\/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+                            "aspect_ratio": 2.66666666667
+                        },
+                        "text": "Follows all Max Safety measures to ensure your food is safe"
+                    }
+                ]
+            },
+            {
+                "type": "restaurant",
+                "info": {
+                    "resId": 19019420,
+                    "name": "Cafe Arabia",
+                    "image": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/4\/6503074\/316c327c12883da615be1fd0c66188a7_o2_featured_v2.jpg"
+                    },
+                    "o2FeaturedImage": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/4\/6503074\/316c327c12883da615be1fd0c66188a7_o2_featured_v2.jpg"
+                    },
+                    "rating": {
+                        "has_fake_reviews": 0,
+                        "aggregate_rating": "4.2",
+                        "rating_text": "4.2",
+                        "rating_subtitle": "Very Good",
+                        "rating_color": "5BA829",
+                        "votes": "2,987",
+                        "subtext": "REVIEWS",
+                        "is_new": false
+                    },
+                    "ratingNew": {
+                        "newlyOpenedObj": null,
+                        "suspiciousReviewObj": null,
+                        "ratings": {
+                            "DINING": {
+                                "rating_type": "DINING",
+                                "rating": "",
+                                "reviewCount": "0",
+                                "reviewTextSmall": "0 Reviews",
+                                "subtext": "Does not offer Dining",
+                                "color": "",
+                                "ratingV2": "-",
+                                "subtitle": "DINING",
+                                "sideSubTitle": "Dining Reviews",
+                                "bgColorV2": {
+                                    "type": "grey",
+                                    "tint": "500"
+                                }
+                            },
+                            "DELIVERY": {
+                                "rating_type": "DELIVERY",
+                                "rating": "4.2",
+                                "reviewCount": "2,987",
+                                "reviewTextSmall": "2,987 Reviews",
+                                "subtext": "2,987 Delivery Reviews",
+                                "color": "#E23744",
+                                "ratingV2": "4.2",
+                                "subtitle": "DELIVERY",
+                                "sideSubTitle": "Delivery Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "700"
+                                },
+                                "newOnDelivery": false
+                            }
+                        }
+                    },
+                    "cft": {
+                        "text": "\u20b9500 for two"
+                    },
+                    "cfo": {
+                        "text": "\u20b9450 for one"
+                    },
+                    "locality": {
+                        "name": "Wadgaon Sheri, Pune",
+                        "address": "Survey 40\/4\/7, Balaji Udyan Nagar, Wadgaon Sheri, Pune",
+                        "localityUrl": "pune\/wadgaon-sheri-restaurants"
+                    },
+                    "timing": {
+                        "text": "",
+                        "color": ""
+                    },
+                    "cuisine": [
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNFwiXX0iXQ%3D%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/arabian\/",
+                            "name": "Arabian"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTM3XCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/middle-eastern\/",
+                            "name": "Middle Eastern"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/fast-food\/",
+                            "name": "Fast Food"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAyNFwiXX0iXQ%3D%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/wraps\/",
+                            "name": "Wraps"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTk4XCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/salad\/",
+                            "name": "Salad"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNjZcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/lebanese\/",
+                            "name": "Lebanese"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTYxXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/shawarma\/",
+                            "name": "Shawarma"
+                        }
+                    ],
+                    "should_ban_ugc": false,
+                    "costText": {
+                        "text": "\u20b9450 for one"
+                    }
+                },
+                "order": {
+                    "deliveryTime": "35 min",
+                    "isServiceable": true,
+                    "hasOnlineOrdering": true,
+                    "actionInfo": {
+                        "text": "Order Now",
+                        "clickUrl": "\/pune\/cafe-arabia-wadgaon-sheri\/order"
+                    }
+                },
+                "gold": [],
+                "takeaway": [],
+                "cardAction": {
+                    "text": "",
+                    "clickUrl": "\/pune\/cafe-arabia-wadgaon-sheri\/order",
+                    "clickActionDeeplink": ""
+                },
+                "distance": "2 km",
+                "isPromoted": false,
+                "promotedText": "",
+                "trackingData": [
+                    {
+                        "table_name": "zsearch_events_log",
+                        "payload": "{\"search_id\":\"a6470192-5a31-4d0c-af2b-98bafc174292\",\"location_type\":\"delivery_cell\",\"location_id\":\"4306216701185228800\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19019420\",\"element_type\":\"listing\",\"rank\":6}",
+                        "event_names": {
+                            "tap": "{\"action\":\"tap\"}",
+                            "impression": "{\"action\":\"impression\"}"
+                        }
+                    }
+                ],
+                "allCTA": [],
+                "promoOffer": "",
+                "checkBulkOffers": true,
+                "bulkOffers": [],
+                "isDisabled": false,
+                "bottomContainers": [
+                    {
+                        "image": {
+                            "url": "https:\/\/b.zmtcdn.com\/data\/o2_assets\/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.png",
+                            "aspect_ratio": 2.0625
+                        },
+                        "text": "Restaurant partner follows WHO protocol"
+                    }
+                ]
+            },
+            {
+                "type": "restaurant",
+                "info": {
+                    "resId": 19241401,
+                    "name": "Tales & Spirits - Hunters Bistro",
+                    "image": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/7\/6507967\/09e9120135a96ef887247f459344b7ce_o2_featured_v2.jpg"
+                    },
+                    "o2FeaturedImage": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/7\/6507967\/09e9120135a96ef887247f459344b7ce_o2_featured_v2.jpg"
+                    },
+                    "rating": {
+                        "has_fake_reviews": 0,
+                        "aggregate_rating": "4.3",
+                        "rating_text": "4.3",
+                        "rating_subtitle": "Very Good",
+                        "rating_color": "5BA829",
+                        "votes": "1,593",
+                        "subtext": "REVIEW",
+                        "is_new": false
+                    },
+                    "ratingNew": {
+                        "newlyOpenedObj": null,
+                        "suspiciousReviewObj": null,
+                        "ratings": {
+                            "DINING": {
+                                "rating_type": "DINING",
+                                "rating": "4.4",
+                                "reviewCount": "1,148",
+                                "reviewTextSmall": "1,148 Reviews",
+                                "subtext": "1,148 Dining Reviews",
+                                "color": "#1C1C1C",
+                                "ratingV2": "4.4",
+                                "subtitle": "DINING",
+                                "sideSubTitle": "Dining Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "700"
+                                }
+                            },
+                            "DELIVERY": {
+                                "rating_type": "DELIVERY",
+                                "rating": "4.1",
+                                "reviewCount": "445",
+                                "reviewTextSmall": "445 Reviews",
+                                "subtext": "445 Delivery Reviews",
+                                "color": "#E23744",
+                                "ratingV2": "4.1",
+                                "subtitle": "DELIVERY",
+                                "sideSubTitle": "Delivery Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "700"
+                                },
+                                "newOnDelivery": false
+                            }
+                        }
+                    },
+                    "cft": {
+                        "text": "\u20b91,800 for two"
+                    },
+                    "cfo": {
+                        "text": "\u20b9450 for one"
+                    },
+                    "locality": {
+                        "name": "Viman Nagar, Pune",
+                        "address": "8, Row House, Clover Corner Society, Opposite Udaan Biodiversity Park, Viman Nagar, Pune",
+                        "localityUrl": "pune\/viman-nagar-restaurants"
+                    },
+                    "timing": {
+                        "text": "",
+                        "color": ""
+                    },
+                    "cuisine": [
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTVcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/italian\/",
+                            "name": "Italian"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzVcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/continental\/",
+                            "name": "Continental"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/pizza\/",
+                            "name": "Pizza"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA2NFwiXX0iXQ%3D%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/pasta\/",
+                            "name": "Pasta"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiOTk4XCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/salad\/",
+                            "name": "Salad"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjI3XCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/bar-food\/",
+                            "name": "Bar Food"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/desserts\/",
+                            "name": "Desserts"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/beverages\/",
+                            "name": "Beverages"
+                        }
+                    ],
+                    "should_ban_ugc": false,
+                    "costText": {
+                        "text": "\u20b9450 for one"
+                    }
+                },
+                "order": {
+                    "deliveryTime": "36 min",
+                    "isServiceable": true,
+                    "hasOnlineOrdering": true,
+                    "actionInfo": {
+                        "text": "Order Now",
+                        "clickUrl": "\/pune\/tales-spirits-hunters-bistro-viman-nagar\/order"
+                    }
+                },
+                "gold": [],
+                "takeaway": [],
+                "cardAction": {
+                    "text": "",
+                    "clickUrl": "\/pune\/tales-spirits-hunters-bistro-viman-nagar\/order",
+                    "clickActionDeeplink": ""
+                },
+                "distance": "578 m",
+                "isPromoted": false,
+                "promotedText": "",
+                "trackingData": [
+                    {
+                        "table_name": "zsearch_events_log",
+                        "payload": "{\"search_id\":\"a6470192-5a31-4d0c-af2b-98bafc174292\",\"location_type\":\"delivery_cell\",\"location_id\":\"4306216701185228800\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19241401\",\"element_type\":\"listing\",\"rank\":7}",
+                        "event_names": {
+                            "tap": "{\"action\":\"tap\"}",
+                            "impression": "{\"action\":\"impression\"}"
+                        }
+                    }
+                ],
+                "allCTA": [],
+                "promoOffer": "",
+                "checkBulkOffers": true,
+                "bulkOffers": [],
+                "isDisabled": false,
+                "bottomContainers": [
+                    {
+                        "image": {
+                            "url": "https:\/\/b.zmtcdn.com\/data\/o2_assets\/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+                            "aspect_ratio": 2.66666666667
+                        },
+                        "text": "Follows all Max Safety measures to ensure your food is safe"
+                    }
+                ]
+            },
+            {
+                "type": "restaurant",
+                "info": {
+                    "resId": 19231265,
+                    "name": "Aha! Baangali",
+                    "image": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/5\/19231265\/256b01b72bcc121137802a14de2f4876_o2_featured_v2.jpg"
+                    },
+                    "o2FeaturedImage": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/5\/19231265\/256b01b72bcc121137802a14de2f4876_o2_featured_v2.jpg"
+                    },
+                    "rating": {
+                        "has_fake_reviews": 0,
+                        "aggregate_rating": "4.1",
+                        "rating_text": "4.1",
+                        "rating_subtitle": "Very Good",
+                        "rating_color": "5BA829",
+                        "votes": "2,450",
+                        "subtext": "REVIEWS",
+                        "is_new": false
+                    },
+                    "ratingNew": {
+                        "newlyOpenedObj": null,
+                        "suspiciousReviewObj": null,
+                        "ratings": {
+                            "DINING": {
+                                "rating_type": "DINING",
+                                "rating": "4.2",
+                                "reviewCount": "146",
+                                "reviewTextSmall": "146 Reviews",
+                                "subtext": "146 Dining Reviews",
+                                "color": "#1C1C1C",
+                                "ratingV2": "4.2",
+                                "subtitle": "DINING",
+                                "sideSubTitle": "Dining Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "700"
+                                }
+                            },
+                            "DELIVERY": {
+                                "rating_type": "DELIVERY",
+                                "rating": "3.9",
+                                "reviewCount": "2,304",
+                                "reviewTextSmall": "2,304 Reviews",
+                                "subtext": "2,304 Delivery Reviews",
+                                "color": "#E23744",
+                                "ratingV2": "3.9",
+                                "subtitle": "DELIVERY",
+                                "sideSubTitle": "Delivery Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "600"
+                                },
+                                "newOnDelivery": false
+                            }
+                        }
+                    },
+                    "cft": {
+                        "text": "\u20b9850 for two"
+                    },
+                    "cfo": {
+                        "text": "\u20b9450 for one"
+                    },
+                    "locality": {
+                        "name": "Viman Nagar, Pune",
+                        "address": "230, Banglow A\/3\/2\/3, Near Ganga Nebulla, Viman Nagar, Pune",
+                        "localityUrl": "pune\/viman-nagar-restaurants"
+                    },
+                    "timing": {
+                        "text": "",
+                        "color": ""
+                    },
+                    "cuisine": [
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTBcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/bengali\/",
+                            "name": "Bengali"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODNcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/sea-food\/",
+                            "name": "Seafood"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiN1wiXX0iXQ%3D%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/biryani\/",
+                            "name": "Biryani"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNzVcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/mughlai\/",
+                            "name": "Mughlai"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/desserts\/",
+                            "name": "Desserts"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/beverages\/",
+                            "name": "Beverages"
+                        }
+                    ],
+                    "should_ban_ugc": false,
+                    "costText": {
+                        "text": "\u20b9450 for one"
+                    }
+                },
+                "order": {
+                    "deliveryTime": "39 min",
+                    "isServiceable": true,
+                    "hasOnlineOrdering": true,
+                    "actionInfo": {
+                        "text": "Order Now",
+                        "clickUrl": "\/pune\/aha-baangali-viman-nagar\/order"
+                    }
+                },
+                "gold": [],
+                "takeaway": [],
+                "cardAction": {
+                    "text": "",
+                    "clickUrl": "\/pune\/aha-baangali-viman-nagar\/order",
+                    "clickActionDeeplink": ""
+                },
+                "distance": "745 m",
+                "isPromoted": false,
+                "promotedText": "",
+                "trackingData": [
+                    {
+                        "table_name": "zsearch_events_log",
+                        "payload": "{\"search_id\":\"a6470192-5a31-4d0c-af2b-98bafc174292\",\"location_type\":\"delivery_cell\",\"location_id\":\"4306216701185228800\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19231265\",\"element_type\":\"listing\",\"rank\":8}",
+                        "event_names": {
+                            "tap": "{\"action\":\"tap\"}",
+                            "impression": "{\"action\":\"impression\"}"
+                        }
+                    }
+                ],
+                "allCTA": [],
+                "promoOffer": "",
+                "checkBulkOffers": true,
+                "bulkOffers": [
+                    {
+                        "text": "30% OFF",
+                        "color": {
+                            "tint": "500",
+                            "type": "blue"
+                        }
+                    }
+                ],
+                "isDisabled": false,
+                "bottomContainers": [
+                    {
+                        "image": {
+                            "url": "https:\/\/b.zmtcdn.com\/data\/o2_assets\/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+                            "aspect_ratio": 2.66666666667
+                        },
+                        "text": "Follows all Max Safety measures to ensure your food is safe"
+                    }
+                ]
+            },
+            {
+                "type": "restaurant",
+                "info": {
+                    "resId": 6507339,
+                    "name": "BOX8 - Desi Meals",
+                    "image": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/2\/18608702\/c6ee3d18909461075ef0f6eab8300913_o2_featured_v2.jpg"
+                    },
+                    "o2FeaturedImage": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/2\/18608702\/c6ee3d18909461075ef0f6eab8300913_o2_featured_v2.jpg"
+                    },
+                    "rating": {
+                        "has_fake_reviews": 0,
+                        "aggregate_rating": "4.5",
+                        "rating_text": "4.5",
+                        "rating_subtitle": "Excellent",
+                        "rating_color": "3F7E00",
+                        "votes": "25.5K",
+                        "subtext": "REVIEWS",
+                        "is_new": false
+                    },
+                    "ratingNew": {
+                        "newlyOpenedObj": null,
+                        "suspiciousReviewObj": null,
+                        "ratings": {
+                            "DINING": {
+                                "rating_type": "DINING",
+                                "rating": "",
+                                "reviewCount": "0",
+                                "reviewTextSmall": "0 Reviews",
+                                "subtext": "Does not offer Dining",
+                                "color": "",
+                                "ratingV2": "-",
+                                "subtitle": "DINING",
+                                "sideSubTitle": "Dining Reviews",
+                                "bgColorV2": {
+                                    "type": "grey",
+                                    "tint": "500"
+                                }
+                            },
+                            "DELIVERY": {
+                                "rating_type": "DELIVERY",
+                                "rating": "4.5",
+                                "reviewCount": "25.5K",
+                                "reviewTextSmall": "25.5K Reviews",
+                                "subtext": "25.5K Delivery Reviews",
+                                "color": "#E23744",
+                                "ratingV2": "4.5",
+                                "subtitle": "DELIVERY",
+                                "sideSubTitle": "Delivery Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "800"
+                                },
+                                "newOnDelivery": false
+                            }
+                        }
+                    },
+                    "cft": {
+                        "text": "\u20b9400 for two"
+                    },
+                    "cfo": {
+                        "text": "\u20b9450 for one"
+                    },
+                    "locality": {
+                        "name": "Viman Nagar, Pune",
+                        "address": "Unit 18 and 21, First Floor, Konark Industrial Estate, Plot 11, CTS.86, Lohgaon, Viman Nagar, Pune",
+                        "localityUrl": "pune\/viman-nagar-restaurants"
+                    },
+                    "timing": {
+                        "text": "",
+                        "color": ""
+                    },
+                    "cuisine": [
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNTBcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/north-indian\/",
+                            "name": "North Indian"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiN1wiXX0iXQ%3D%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/biryani\/",
+                            "name": "Biryani"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/fast-food\/",
+                            "name": "Fast Food"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAyNFwiXX0iXQ%3D%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/wraps\/",
+                            "name": "Wraps"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzA0XCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/sandwich\/",
+                            "name": "Sandwich"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjMzXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/ice-cream\/",
+                            "name": "Ice Cream"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/desserts\/",
+                            "name": "Desserts"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/beverages\/",
+                            "name": "Beverages"
+                        }
+                    ],
+                    "should_ban_ugc": false,
+                    "costText": {
+                        "text": "\u20b9450 for one"
+                    }
+                },
+                "order": {
+                    "deliveryTime": "22 min",
+                    "isServiceable": true,
+                    "hasOnlineOrdering": true,
+                    "actionInfo": {
+                        "text": "Order Now",
+                        "clickUrl": "\/pune\/box8-desi-meals-viman-nagar\/order"
+                    }
+                },
+                "gold": [],
+                "takeaway": [],
+                "cardAction": {
+                    "text": "",
+                    "clickUrl": "\/pune\/box8-desi-meals-viman-nagar\/order",
+                    "clickActionDeeplink": ""
+                },
+                "distance": "385 m",
+                "isPromoted": false,
+                "promotedText": "",
+                "trackingData": [
+                    {
+                        "table_name": "zsearch_events_log",
+                        "payload": "{\"search_id\":\"a6470192-5a31-4d0c-af2b-98bafc174292\",\"location_type\":\"delivery_cell\",\"location_id\":\"4306216701185228800\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"6507339\",\"element_type\":\"listing\",\"rank\":9}",
+                        "event_names": {
+                            "tap": "{\"action\":\"tap\"}",
+                            "impression": "{\"action\":\"impression\"}"
+                        }
+                    }
+                ],
+                "allCTA": [],
+                "promoOffer": "",
+                "checkBulkOffers": true,
+                "bulkOffers": [
+                    {
+                        "text": "Flat \u20b9125 OFF + \u20b925 cashback",
+                        "color": {
+                            "tint": "500",
+                            "type": "blue"
+                        }
+                    }
+                ],
+                "isDisabled": false,
+                "bottomContainers": [
+                    {
+                        "image": {
+                            "url": "https:\/\/b.zmtcdn.com\/data\/o2_assets\/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+                            "aspect_ratio": 2.66666666667
+                        },
+                        "text": "Follows all Max Safety measures to ensure your food is safe"
+                    }
+                ]
+            },
+            {
+                "type": "restaurant",
+                "info": {
+                    "resId": 20380517,
+                    "name": "Kini",
+                    "image": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/7\/20380517\/ca163e066bcb3f31756d1b50a2d0fccd_o2_featured_v2.jpg"
+                    },
+                    "o2FeaturedImage": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/7\/20380517\/ca163e066bcb3f31756d1b50a2d0fccd_o2_featured_v2.jpg"
+                    },
+                    "rating": {
+                        "has_fake_reviews": 0,
+                        "aggregate_rating": "4.1",
+                        "rating_text": "4.1",
+                        "rating_subtitle": "Very Good",
+                        "rating_color": "5BA829",
+                        "votes": "481",
+                        "subtext": "REVIEWS",
+                        "is_new": false
+                    },
+                    "ratingNew": {
+                        "newlyOpenedObj": null,
+                        "suspiciousReviewObj": null,
+                        "ratings": {
+                            "DINING": {
+                                "rating_type": "DINING",
+                                "rating": "4.0",
+                                "reviewCount": "73",
+                                "reviewTextSmall": "73 Reviews",
+                                "subtext": "73 Dining Reviews",
+                                "color": "#1C1C1C",
+                                "ratingV2": "4.0",
+                                "subtitle": "DINING",
+                                "sideSubTitle": "Dining Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "700"
+                                }
+                            },
+                            "DELIVERY": {
+                                "rating_type": "DELIVERY",
+                                "rating": "4.1",
+                                "reviewCount": "408",
+                                "reviewTextSmall": "408 Reviews",
+                                "subtext": "408 Delivery Reviews",
+                                "color": "#E23744",
+                                "ratingV2": "4.1",
+                                "subtitle": "DELIVERY",
+                                "sideSubTitle": "Delivery Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "700"
+                                },
+                                "newOnDelivery": false
+                            }
+                        }
+                    },
+                    "cft": {
+                        "text": "\u20b9700 for two"
+                    },
+                    "cfo": {
+                        "text": "\u20b9450 for one"
+                    },
+                    "locality": {
+                        "name": "Koregaon Park, Pune",
+                        "address": "Shop 1, Building A9, Meeranagar Cooperative Housing Society, Lane 7, Koregaon Park, Pune",
+                        "localityUrl": "pune\/koregaon-park-restaurants"
+                    },
+                    "timing": {
+                        "text": "",
+                        "color": ""
+                    },
+                    "cuisine": [
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNjdcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/korean\/",
+                            "name": "Korean"
+                        }
+                    ],
+                    "should_ban_ugc": false,
+                    "costText": {
+                        "text": "\u20b9450 for one"
+                    }
+                },
+                "order": {
+                    "deliveryTime": "39 min",
+                    "isServiceable": true,
+                    "hasOnlineOrdering": true,
+                    "actionInfo": {
+                        "text": "Order Now",
+                        "clickUrl": "\/pune\/kini-koregaon-park\/order"
+                    }
+                },
+                "gold": [],
+                "takeaway": [],
+                "cardAction": {
+                    "text": "",
+                    "clickUrl": "\/pune\/kini-koregaon-park\/order",
+                    "clickActionDeeplink": ""
+                },
+                "distance": "3.7 km",
+                "isPromoted": false,
+                "promotedText": "",
+                "trackingData": [
+                    {
+                        "table_name": "zsearch_events_log",
+                        "payload": "{\"search_id\":\"a6470192-5a31-4d0c-af2b-98bafc174292\",\"location_type\":\"delivery_cell\",\"location_id\":\"4306216701185228800\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"20380517\",\"element_type\":\"listing\",\"rank\":10}",
+                        "event_names": {
+                            "tap": "{\"action\":\"tap\"}",
+                            "impression": "{\"action\":\"impression\"}"
+                        }
+                    }
+                ],
+                "allCTA": [],
+                "promoOffer": "",
+                "checkBulkOffers": true,
+                "bulkOffers": [],
+                "isDisabled": false,
+                "bottomContainers": []
+            },
+            {
+                "type": "restaurant",
+                "info": {
+                    "resId": 19774095,
+                    "name": "Circle Of Crust",
+                    "image": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/5\/19774095\/51ad0e6feecffe20b81c8303e4d0592b_o2_featured_v2.jpg"
+                    },
+                    "o2FeaturedImage": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/5\/19774095\/51ad0e6feecffe20b81c8303e4d0592b_o2_featured_v2.jpg"
+                    },
+                    "rating": {
+                        "has_fake_reviews": 0,
+                        "aggregate_rating": "4.0",
+                        "rating_text": "4.0",
+                        "rating_subtitle": "Very Good",
+                        "rating_color": "5BA829",
+                        "votes": "555",
+                        "subtext": "REVIEWS",
+                        "is_new": false
+                    },
+                    "ratingNew": {
+                        "newlyOpenedObj": null,
+                        "suspiciousReviewObj": null,
+                        "ratings": {
+                            "DINING": {
+                                "rating_type": "DINING",
+                                "rating": "3.9",
+                                "reviewCount": "39",
+                                "reviewTextSmall": "39 Reviews",
+                                "subtext": "39 Dining Reviews",
+                                "color": "#1C1C1C",
+                                "ratingV2": "3.9",
+                                "subtitle": "DINING",
+                                "sideSubTitle": "Dining Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "600"
+                                }
+                            },
+                            "DELIVERY": {
+                                "rating_type": "DELIVERY",
+                                "rating": "4.0",
+                                "reviewCount": "516",
+                                "reviewTextSmall": "516 Reviews",
+                                "subtext": "516 Delivery Reviews",
+                                "color": "#E23744",
+                                "ratingV2": "4.0",
+                                "subtitle": "DELIVERY",
+                                "sideSubTitle": "Delivery Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "700"
+                                },
+                                "newOnDelivery": false
+                            }
+                        }
+                    },
+                    "cft": {
+                        "text": "\u20b9450 for two"
+                    },
+                    "cfo": {
+                        "text": "\u20b9450 for one"
+                    },
+                    "locality": {
+                        "name": "Phoenix Market City, Viman Nagar, Pune",
+                        "address": "Unit S-23, Second Floor, Phoenix Market City, Viman Nagar, Pune",
+                        "localityUrl": "pune\/restaurants\/in\/phoenix-market-city-viman-nagar"
+                    },
+                    "timing": {
+                        "text": "",
+                        "color": ""
+                    },
+                    "cuisine": [
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/pizza\/",
+                            "name": "Pizza"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/fast-food\/",
+                            "name": "Fast Food"
+                        }
+                    ],
+                    "should_ban_ugc": false,
+                    "costText": {
+                        "text": "\u20b9450 for one"
+                    }
+                },
+                "order": {
+                    "deliveryTime": "35 min",
+                    "isServiceable": true,
+                    "hasOnlineOrdering": true,
+                    "actionInfo": {
+                        "text": "Order Now",
+                        "clickUrl": "\/pune\/circle-of-crust-viman-nagar\/order"
+                    }
+                },
+                "gold": [],
+                "takeaway": [],
+                "cardAction": {
+                    "text": "",
+                    "clickUrl": "\/pune\/circle-of-crust-viman-nagar\/order",
+                    "clickActionDeeplink": ""
+                },
+                "distance": "571 m",
+                "isPromoted": false,
+                "promotedText": "",
+                "trackingData": [
+                    {
+                        "table_name": "zsearch_events_log",
+                        "payload": "{\"search_id\":\"a6470192-5a31-4d0c-af2b-98bafc174292\",\"location_type\":\"delivery_cell\",\"location_id\":\"4306216701185228800\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19774095\",\"element_type\":\"listing\",\"rank\":11}",
+                        "event_names": {
+                            "tap": "{\"action\":\"tap\"}",
+                            "impression": "{\"action\":\"impression\"}"
+                        }
+                    }
+                ],
+                "allCTA": [],
+                "promoOffer": "",
+                "checkBulkOffers": true,
+                "bulkOffers": [
+                    {
+                        "text": "60% OFF",
+                        "color": {
+                            "tint": "500",
+                            "type": "blue"
+                        }
+                    }
+                ],
+                "isDisabled": false,
+                "bottomContainers": [
+                    {
+                        "image": {
+                            "url": "https:\/\/b.zmtcdn.com\/data\/o2_assets\/0b07ef18234c6fdf9365ad1c274ae0631612687510.png",
+                            "aspect_ratio": 2.66666666667
+                        },
+                        "text": "Follows all Max Safety measures to ensure your food is safe"
+                    }
+                ]
+            },
+            {
+                "type": "restaurant",
+                "info": {
+                    "resId": 19562054,
+                    "name": "Crazy Cheesy",
+                    "image": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/3\/18315713\/673966f8686736ef386e96498054c8b4_o2_featured_v2.jpg"
+                    },
+                    "o2FeaturedImage": {
+                        "url": "https:\/\/b.zmtcdn.com\/data\/pictures\/chains\/3\/18315713\/673966f8686736ef386e96498054c8b4_o2_featured_v2.jpg"
+                    },
+                    "rating": {
+                        "has_fake_reviews": 0,
+                        "aggregate_rating": "3.8",
+                        "rating_text": "3.8",
+                        "rating_subtitle": "Good",
+                        "rating_color": "9ACD32",
+                        "votes": "2,905",
+                        "subtext": "REVIEWS",
+                        "is_new": false
+                    },
+                    "ratingNew": {
+                        "newlyOpenedObj": null,
+                        "suspiciousReviewObj": null,
+                        "ratings": {
+                            "DINING": {
+                                "rating_type": "DINING",
+                                "rating": "3.7",
+                                "reviewCount": "65",
+                                "reviewTextSmall": "65 Reviews",
+                                "subtext": "65 Dining Reviews",
+                                "color": "#1C1C1C",
+                                "ratingV2": "3.7",
+                                "subtitle": "DINING",
+                                "sideSubTitle": "Dining Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "600"
+                                }
+                            },
+                            "DELIVERY": {
+                                "rating_type": "DELIVERY",
+                                "rating": "3.8",
+                                "reviewCount": "2,840",
+                                "reviewTextSmall": "2,840 Reviews",
+                                "subtext": "2,840 Delivery Reviews",
+                                "color": "#E23744",
+                                "ratingV2": "3.8",
+                                "subtitle": "DELIVERY",
+                                "sideSubTitle": "Delivery Reviews",
+                                "bgColorV2": {
+                                    "type": "green",
+                                    "tint": "600"
+                                },
+                                "newOnDelivery": false
+                            }
+                        }
+                    },
+                    "cft": {
+                        "text": "\u20b9400 for two"
+                    },
+                    "cfo": {
+                        "text": "\u20b9450 for one"
+                    },
+                    "locality": {
+                        "name": "Viman Nagar, Pune",
+                        "address": "Survey 199, Row House 25, Riddhi Siddhi Park, Symbiosis University Road, Viman Nagar, Pune",
+                        "localityUrl": "pune\/viman-nagar-restaurants"
+                    },
+                    "timing": {
+                        "text": "",
+                        "color": ""
+                    },
+                    "cuisine": [
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiODJcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/pizza\/",
+                            "name": "Pizza"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMzA0XCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/sandwich\/",
+                            "name": "Sandwich"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA2NFwiXX0iXQ%3D%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/pasta\/",
+                            "name": "Pasta"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiNDBcIl19Il0%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/fast-food\/",
+                            "name": "Fast Food"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTAwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/desserts\/",
+                            "name": "Desserts"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA0MFwiXX0iXQ%3D%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/coffee\/",
+                            "name": "Coffee"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMTA2NlwiXX0iXQ%3D%3D",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/shake\/",
+                            "name": "Shake"
+                        },
+                        {
+                            "deeplink": "zomato:\/\/search?deeplink_filters=WyJ7XCJjb250ZXh0XCI6XCJhbGxcIn0iLCJ7XCJjdWlzaW5lX2lkXCI6W1wiMjcwXCJdfSJd",
+                            "url": "https:\/\/www.zomato.com\/pune\/restaurants\/beverages\/",
+                            "name": "Beverages"
+                        }
+                    ],
+                    "should_ban_ugc": false,
+                    "costText": {
+                        "text": "\u20b9450 for one"
+                    }
+                },
+                "order": {
+                    "deliveryTime": "29 min",
+                    "isServiceable": true,
+                    "hasOnlineOrdering": true,
+                    "actionInfo": {
+                        "text": "Order Now",
+                        "clickUrl": "\/pune\/crazy-cheesy-viman-nagar\/order"
+                    }
+                },
+                "gold": [],
+                "takeaway": [],
+                "cardAction": {
+                    "text": "",
+                    "clickUrl": "\/pune\/crazy-cheesy-viman-nagar\/order",
+                    "clickActionDeeplink": ""
+                },
+                "distance": "498 m",
+                "isPromoted": false,
+                "promotedText": "",
+                "trackingData": [
+                    {
+                        "table_name": "zsearch_events_log",
+                        "payload": "{\"search_id\":\"a6470192-5a31-4d0c-af2b-98bafc174292\",\"location_type\":\"delivery_cell\",\"location_id\":\"4306216701185228800\",\"page_type\":\"delivery\",\"app_type\":\"new_web_consumer\",\"section\":\"restaurants\",\"entity_type\":\"restaurant\",\"entity_id\":\"19562054\",\"element_type\":\"listing\",\"rank\":12}",
+                        "event_names": {
+                            "tap": "{\"action\":\"tap\"}",
+                            "impression": "{\"action\":\"impression\"}"
+                        }
+                    }
+                ],
+                "allCTA": [],
+                "promoOffer": "",
+                "checkBulkOffers": true,
+                "bulkOffers": [
+                    {
+                        "text": "\u20b9100 OFF",
+                        "color": {
+                            "tint": "500",
+                            "type": "blue"
+                        }
+                    }
+                ],
+                "isDisabled": false,
+                "bottomContainers": [
+                    {
+                        "image": {
+                            "url": "https:\/\/b.zmtcdn.com\/data\/o2_assets\/695598f38d29d0e5d3f8ffe57cfdb94c1613145422.png",
+                            "aspect_ratio": 2.0625
+                        },
+                        "text": "Restaurant partner follows WHO protocol"
+                    }
+                ]
+            }
+        ],
+        "SECTION_SEARCH_META_INFO": {
+            "searchMetaData": {
+                "previousSearchParams": "{\"PreviousSearchId\":\"a6470192-5a31-4d0c-af2b-98bafc174292\",\"PreviousSearchFilter\":[\"{\\\"category_context\\\":\\\"delivery_home\\\"}\",\"\"]}",
+                "postbackParams": "{\"processed_chain_ids\":[19543297,10215,19174262,20699081,11079,6503080,19655918,10152,19142831,6508221,18526247,18974462,6503329,18365240,19539258,10070,11168,10503,19608528,19623794,19065489,11170,18778437,18595600,18401590,18954495,6503074,6507967,18725671,18608702,20380517,19339153,18315713],\"shown_res_count\":33,\"search_id\":\"a6470192-5a31-4d0c-af2b-98bafc174292\"}",
+                "totalResults": 5719,
+                "hasMore": true,
+                "getInactive": false
+            }
+        }
+    },
+    "entities": []
+}
