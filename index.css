@@ -75,4 +75,10 @@
     background-color: #f0f0f0;
     margin: 20px;
 }
+
+.login-btn {
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 5px;
+}
  
