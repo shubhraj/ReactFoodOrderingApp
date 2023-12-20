@@ -67,7 +67,6 @@
 .shimmer-container {
     display: grid;   
     gap: 10px;
-
 }
 
 @media (min-width: 520px) {
@@ -93,4 +92,12 @@
     margin: 0 2px;
     width: 10rem;
 }
- 
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}  
