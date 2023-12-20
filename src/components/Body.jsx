@@ -19,6 +19,7 @@ const BodyComponent = () => {
       setRestaurantList(apiResData);
     }
 
+    // Conditional rendering
     if(RestaurantList.length === 0) {
       return <Shimmer/>
     }
