@@ -1,26 +1,27 @@
 
 import RestaurantCard from "./RestaurantCard";  
-import resList from "../utils/mockdata";
 import React, { useState, useEffect } from "react"; 
 import Shimmer from "./Shimmer";
 
 const BodyComponent = () => {
-    const SWIGGY_API = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING";
+    const SWIGGY_API = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.48584596141754&lng=73.95781382918358&page_type=DESKTOP_WEB_LISTING";
 
     // Whenever the state variables update,  React triggers the reconciliation cycle ( re-renders the components) 
     const [RestaurantList, setRestaurantList] = useState([]);
     const [FilteredListOfRestaurants, setFilteredListOfRestaurants] = useState([]);
     const [searchText, setSearchText] = useState("");
 
+    // no dependency array it is called on every component render
+    // empty Dependency array -> [] -> it will be called only on initial render, so here passing [] as I want the API call on page load only ( just once )
+    
     useEffect(()=> {
       fetchData();
-    },
-    []);
+    },[]);
 
     const fetchData = async () => {
       const response = await fetch(SWIGGY_API);
       const data = await response.json();
-      let apiResData = data?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+      let apiResData = data?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
       setRestaurantList(apiResData);
       setFilteredListOfRestaurants(apiResData);
     }
