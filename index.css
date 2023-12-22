@@ -4,6 +4,38 @@
     border: 1px solid black;
 }
 
+.app {
+    height: 100vh;
+    /* grid container settings */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+}
+
+.app > header {
+  grid-area: header;
+}
+
+.app > .body {
+  grid-area: main;
+  padding: 15px 5px 10px 5px;
+  background-color: #dfdfdf;
+}
+
+.app > footer {
+  grid-area: footer;
+  height: auto;
+  border: 1px solid gray;  
+}
+
+.footer p {
+    padding: 0 5px;
+}
+
 .logo {
     width: 200px;
 }
@@ -96,6 +128,10 @@
 a {
     cursor: pointer;
     text-decoration: none;
+}
+
+li {
+    list-style-type: none
 }
 
 a:hover {
