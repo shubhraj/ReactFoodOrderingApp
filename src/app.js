@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { Header } from "./components/Header";
 import BodyComponent from "./components/Body";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
@@ -56,10 +56,11 @@ const RestaurantCard = (props) => {
 
 
 const AppLayout = () => {
+  //outlet works as a placeholder and it get replaced by the components linked to that route
   return (
     <div className="app">  
         <Header />
-        <BodyComponent /> 
+        <Outlet />  
     </div>
 )
 }
@@ -68,16 +69,23 @@ const appRouter = createBrowserRouter([
   {
     path: "/",
     element: <AppLayout />,
+    children: [
+      {
+        path: "/",
+        element: <BodyComponent />
+      
+      },
+      {
+        path: "/about",
+        element: <About />
+      
+      },
+      {
+        path: "/contact",
+        element: <Contact />
+      }
+    ],
     errorElement: <Error />
-  },
-  {
-    path: "/about",
-    element: <About />
-  
-  },
-  {
-    path: "/contact",
-    element: <Contact />
   }
 ])
 

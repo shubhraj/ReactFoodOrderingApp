@@ -1,5 +1,7 @@
 import { LOGO_URL } from "../utils/constants" 
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+
 export const Header = () => {
 
     const [btnNameReact, setbtnNameReact] = useState("Login");
@@ -21,9 +23,10 @@ export const Header = () => {
   
         <div className="nav-items">
           <ul>
-             <li><a href="/">Home</a></li>
-             <li><a href="/about"> About Us </a></li>
-             <li>Contact Us</li>
+            {/* here instead of <a> tag we are using <Link> tag as it wont reload the page but will just rerender the component, due to this we can create SPA */}
+             <li><Link to="/">Home</Link></li>
+             <li><Link to="/about"> About Us </Link></li>
+             <li><Link to="/contact"> Contact Us</Link></li>
              <li>Cart</li>
              <button className="login-btn" onClick={() => {  
               btnNameReact === "Login" ? setbtnNameReact("Logout") :  setbtnNameReact("Login");
