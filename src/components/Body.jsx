@@ -2,6 +2,7 @@
 import RestaurantCard from "./RestaurantCard";  
 import React, { useState, useEffect } from "react"; 
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const BodyComponent = () => {
     const SWIGGY_API = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.48584596141754&lng=73.95781382918358&page_type=DESKTOP_WEB_LISTING";
@@ -37,6 +38,7 @@ const BodyComponent = () => {
             <div className="search">
               <input type="text" className="search-box" placeholder="search Restaurant" value={searchText}
               // onClick={() => {
+              //  here we are restoring the original List on click on input box
               //   setFilteredListOfRestaurants(RestaurantList);
               // }}
               onChange={(e) => {
@@ -48,15 +50,15 @@ const BodyComponent = () => {
               }}>Search</button>
             </div>
             <button className="filter-btn" onClick={() => {
-               const filteredList = RestaurantList.filter((item) => item.info.avgRating > 4);
-               setRestaurantList(filteredList); 
+               const filteredList = FilteredListOfRestaurants.filter((item) => item.info.avgRating > 4);
+               setFilteredListOfRestaurants(filteredList); 
             }}>Top Rated Restaurants </button>
           </div>
 
           <div className="res-container">
               {    
                    FilteredListOfRestaurants.length > 0 ? (FilteredListOfRestaurants.map((restaurant) => {
-                      return <RestaurantCard key={restaurant.info.id} resData = {restaurant}/> 
+                      return <Link key={restaurant.info.id} to={`/restaurant/${restaurant.info.id}`}><RestaurantCard resData = {restaurant}/></Link>
                    }) ) : (
                      <p>Zero Results Found...</p>
                    )                      

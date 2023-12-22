@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
+import RestaurantMenu from "./components/RestaurantMenu";
+import Footer from "./components/Footer";
 
 const heading = React.createElement(
   "h1",
@@ -14,45 +16,43 @@ const heading = React.createElement(
 );
 
 //JSX is HTML like syntax : Babel transpiles in to react.createElement
-const jsxHeading = (
-  <h1 className="head" tabIndex="1" aria-hidden="true" srcSet="test">
-    This is JSX Heading
-  </h1>
-);
+// const jsxHeading = (
+//   <h1 className="head" tabIndex="1" aria-hidden="true" srcSet="test">
+//     This is JSX Heading
+//   </h1>
+// );
 
-const Title = () => {
-    return <h2>This is title Components</h2>
-}
-//React Component
-// Class Based Components
-// Functional Components
+// const Title = () => {
+//     return <h2>This is title Components</h2>
+// }
+// //React Component
+// // Class Based Components
+// // Functional Components
 
-const HeadingComponent = () => 
-<div> 
-    <h1> this is Heading Component </h1>
-    <Title/> 
-</div>
+// const HeadingComponent = () => 
+// <div> 
+//     <h1> this is Heading Component </h1>
+//     <Title/> 
+// </div>
 
-// this nesting of components is called as component Composition
-
-
-const RestaurantCard = (props) => { 
-  const {name, cuisines, avgRating, costForTwo, cloudinaryImageId} =  props?.resData?.info;
-
-  return(
-    <div className="res-card">
-      <img alt="res-logo" 
-      className="res-logo"
-      src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId} height={200} width={200}></img>
-      <h3>{name}</h3>
-      <h4>{cuisines.join(', ')}</h4>
-      <h4>{avgRating} Stars</h4>
-      <h4>{costForTwo}</h4>
-    </div>
-  )
-}
+// // this nesting of components is called as component Composition
 
 
+// const RestaurantCard = (props) => { 
+//   const {name, cuisines, avgRating, costForTwo, cloudinaryImageId} =  props?.resData?.info;
+
+//   return(
+//     <div className="res-card">
+//       <img alt="res-logo" 
+//       className="res-logo"
+//       src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId} height={200} width={200}></img>
+//       <h3>{name}</h3>
+//       <h4>{cuisines.join(', ')}</h4>
+//       <h4>{avgRating} Stars</h4>
+//       <h4>{costForTwo}</h4>
+//     </div>
+//   )
+// }
 
 
 const AppLayout = () => {
@@ -60,7 +60,8 @@ const AppLayout = () => {
   return (
     <div className="app">  
         <Header />
-        <Outlet />  
+        <Outlet /> 
+        <Footer /> 
     </div>
 )
 }
@@ -83,7 +84,11 @@ const appRouter = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />
-      }
+      },
+      {
+        path: "restaurant/:resId",
+        element: <RestaurantMenu />
+      },
     ],
     errorElement: <Error />
   }
