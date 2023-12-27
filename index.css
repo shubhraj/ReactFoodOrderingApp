@@ -137,3 +137,8 @@ li {
 a:hover {
     color: gray;
 }  
+
+.user-card {
+    padding: 10px;
+    border: 1px solid black;
+}

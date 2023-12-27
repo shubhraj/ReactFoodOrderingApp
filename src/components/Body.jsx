@@ -22,13 +22,14 @@ const BodyComponent = () => {
     const fetchData = async () => {
       const response = await fetch(SWIGGY_API);
       const data = await response.json();
-      let apiResData = data?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
+      //this API data keeps on changing as we are using Swiggy API <this just for learning purpose>
+      let apiResData = data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants; 
       setRestaurantList(apiResData);
       setFilteredListOfRestaurants(apiResData);
     }
 
     // Conditional rendering
-    if(RestaurantList.length === 0) {
+    if(RestaurantList && RestaurantList.length === 0) {
       return <Shimmer/>
     }
 
@@ -57,7 +58,7 @@ const BodyComponent = () => {
 
           <div className="res-container">
               {    
-                   FilteredListOfRestaurants.length > 0 ? (FilteredListOfRestaurants.map((restaurant) => {
+                   FilteredListOfRestaurants && FilteredListOfRestaurants.length > 0 ? (FilteredListOfRestaurants.map((restaurant) => {
                       return <Link key={restaurant.info.id} to={`/restaurant/${restaurant.info.id}`}><RestaurantCard resData = {restaurant}/></Link>
                    }) ) : (
                      <p>Zero Results Found...</p>
