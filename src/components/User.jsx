@@ -5,14 +5,14 @@ const User = ({name}) => {
     const [count2, setCount2] = useState(1);
     
     useEffect(()=> {
-        const timer = setInterval(() => {
-            console.log("timer started");
-        }, 1000);
+        // const timer = setInterval(() => {
+        //     console.log("timer started");
+        // }, 1000);
         console.log('UseEffect');
 
         //callbac function to clear the timers, event Listeners    
         return ()=> {
-            clearInterval(timer);
+            // clearInterval(timer);
         };
     },[])
 

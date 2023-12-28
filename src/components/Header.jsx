@@ -1,6 +1,7 @@
 import { LOGO_URL } from "../utils/constants" 
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 export const Header = () => {
 
@@ -15,6 +16,8 @@ export const Header = () => {
     },[btnNameReact]); 
  
     let btnName = "Login";
+
+    const onlineStatus = useOnlineStatus();
     return (
       <div className="header">
         <div className="logo-container">
@@ -24,6 +27,7 @@ export const Header = () => {
         <div className="nav-items">
           <ul>
             {/* here instead of <a> tag we are using <Link> tag as it wont reload the page but will just rerender the component, due to this we can create SPA */}
+             <li>Online status : {onlineStatus ? "🟢" : "🔴"}</li>
              <li><Link to="/">Home</Link></li>
              <li><Link to="/about"> About Us </Link></li>
              <li><Link to="/contact"> Contact Us</Link></li>

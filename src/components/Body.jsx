@@ -3,7 +3,9 @@ import RestaurantCard from "./RestaurantCard";
 import React, { useState } from "react"; 
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+
 import useRestaurantList from "../utils/useRestaurantList";
+import useOnlineStatus from "../utils/useOnlineStatus";
 const BodyComponent = () => {
     
 
@@ -16,6 +18,12 @@ const BodyComponent = () => {
     // empty Dependency array -> [] -> it will be called only on initial render, so here passing [] as I want the API call on page load only ( just once )
 
     // Conditional rendering
+    const onlineStatus = useOnlineStatus();
+
+    if(!onlineStatus) {
+      return <h1>looks like you are Offline, please check internet connection...  </h1>
+    }
+
     if(isLoading) {
       return <Shimmer/>
     }
