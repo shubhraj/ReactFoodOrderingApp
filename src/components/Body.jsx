@@ -30,28 +30,47 @@ const BodyComponent = () => {
 
     return (
       <div className="body">
-          <div className="filter">
-            <div className="search">
-              <input type="text" className="search-box" placeholder="search Restaurant" value={searchText}
-              // onClick={() => {
-              //  here we are restoring the original List on click on input box
-              //   setFilteredListOfRestaurants(RestaurantList);
-              // }}
-              onChange={(e) => {
-                setSearchText(e.target.value);
-              }}/>
-              <button onClick={()=> {
-                const filteredRestaurants = RestaurantList.filter((res) =>  res.info.name.toLowerCase().includes(searchText.toLowerCase()));
-                setFilteredListOfRestaurants(filteredRestaurants);    
-              }}>Search</button>
-            </div>
-            <button className="filter-btn" onClick={() => {
-               const filteredList = FilteredListOfRestaurants.filter((item) => item.info.avgRating > 4);
-               setFilteredListOfRestaurants(filteredList); 
-            }}>Top Rated Restaurants </button>
-          </div>
+          <div className="filter flex flex-col md:flex-row md:items-center p-4 md:p-0">
+  <div className="search mb-4 md:mb-0 md:mr-4 flex items-center">
+    <input
+      type="text"
+      className="search-box border border-solid border-black px-4 py-2 rounded"
+      placeholder="Search Restaurant"
+      value={searchText}
+      onChange={(e) => {
+        setSearchText(e.target.value);
+      }}
+    />
+    <button
+      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 ml-2 rounded"
+      onClick={() => {
+        const filteredRestaurants = RestaurantList.filter((res) =>
+          res.info.name.toLowerCase().includes(searchText.toLowerCase())
+        );
+        setFilteredListOfRestaurants(filteredRestaurants);
+      }}
+    >
+      Search
+    </button>
+  </div>
+  
+  <div className="flex">
+    <button
+      className="filter-btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      onClick={() => {
+        const filteredList = FilteredListOfRestaurants.filter(
+          (item) => item.info.avgRating > 4
+        );
+        setFilteredListOfRestaurants(filteredList);
+      }}
+    >
+      Top Rated Restaurants
+    </button>
+  </div>
+</div>
 
-          <div className="res-container">
+
+          <div className="res-container flex flex-auto flex-wrap">
               {    
                    FilteredListOfRestaurants && FilteredListOfRestaurants.length > 0 ? (FilteredListOfRestaurants.map((restaurant) => {
                       return <Link key={restaurant.info.id} to={`/restaurant/${restaurant.info.id}`}><RestaurantCard resData = {restaurant}/></Link>
