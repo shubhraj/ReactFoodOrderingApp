@@ -18,3 +18,7 @@ ex.  useState() , useEffect()
 
 2. server side Routing : we make a network call and page is rendered
 
+#optimize the app
+- single responsibility principle
+- custom hooks
+ 
