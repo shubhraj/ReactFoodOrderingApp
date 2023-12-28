@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "this is react boilerplate",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html & parcel watch index.html",
     "build": "parcel build index.html",
     "test": "jest"
   },
@@ -12,7 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.10.3",
-    "process": "^0.11.10"
+    "postcss": "^8.4.32",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.0"
   },
   "dependencies": {
     "react": "^18.2.0",

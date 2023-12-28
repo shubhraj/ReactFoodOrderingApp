@@ -19,20 +19,20 @@ export const Header = () => {
 
     const onlineStatus = useOnlineStatus();
     return (
-      <div className="header">
+      <div className="header flex justify-between shadow-lg m-1 " >
         <div className="logo-container">
-          <img className="logo" width="100" height="100" src={LOGO_URL} />
+          <img className="logo w-56 min-w-44" src={LOGO_URL} />
         </div> 
   
-        <div className="nav-items">
-          <ul>
+        <div className="nav-items flex items-center flex-wrap" >
+          <ul className="flex p-4 m-4">
             {/* here instead of <a> tag we are using <Link> tag as it wont reload the page but will just rerender the component, due to this we can create SPA */}
-             <li>Online status : {onlineStatus ? "🟢" : "🔴"}</li>
-             <li><Link to="/">Home</Link></li>
-             <li><Link to="/about"> About Us </Link></li>
-             <li><Link to="/contact"> Contact Us</Link></li>
-             <li><Link to="/grocery"> Grocery </Link></li>
-             <li>Cart</li>
+             <li className="px-4">Online status : {onlineStatus ? "🟢" : "🔴"}</li>
+             <li className="px-4"><Link to="/">Home</Link></li>
+             <li className="px-4"><Link to="/about"> About Us </Link></li>
+             <li className="px-4"><Link to="/contact"> Contact Us</Link></li>
+             <li className="px-4"><Link to="/grocery"> Grocery </Link></li>
+             <li className="px-4">Cart</li>
              <button className="login-btn" onClick={() => {  
               btnNameReact === "Login" ? setbtnNameReact("Logout") :  setbtnNameReact("Login");
              }}>{btnNameReact}</button>

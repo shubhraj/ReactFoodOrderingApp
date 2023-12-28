@@ -13,6 +13,7 @@ const useRestaurantList = () => {
   const fetchRestaurants = async () => {
     try {
       const response = await fetch(SWIGGY_API);
+      console.log(SWIGGY_API);
       const data = await response.json();
       let apiResData =
         data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
