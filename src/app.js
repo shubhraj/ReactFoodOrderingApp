@@ -1,4 +1,4 @@
-import React from "react";
+import React, {lazy, Suspense} from "react";
 import ReactDOM from "react-dom/client";
 import { Header } from "./components/Header";
 import BodyComponent from "./components/Body";
@@ -8,6 +8,8 @@ import Contact from "./components/Contact";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Footer from "./components/Footer";
+
+const Grocery = lazy(() => import("./components/Grocery"));
 
 const heading = React.createElement(
   "h1",
@@ -84,6 +86,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />
+      },
+      {
+        path: "/grocery",
+        element: <Suspense fallback={<h1>Loading ...</h1>}><Grocery /></Suspense>
       },
       {
         path: "restaurant/:resId",
