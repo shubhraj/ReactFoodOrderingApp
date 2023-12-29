@@ -1,4 +1,4 @@
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withPromotedLabel}  from "./RestaurantCard";
 import React, { useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
@@ -18,6 +18,11 @@ const BodyComponent = () => {
   } = useRestaurantList();
   // no dependency array it is called on every component render
   // empty Dependency array -> [] -> it will be called only on initial render, so here passing [] as I want the API call on page load only ( just once )
+
+
+  //Higher Order Function 
+
+  const PromotedRestaurants = withPromotedLabel(RestaurantCard);
 
   // Conditional rendering
   const onlineStatus = useOnlineStatus();
@@ -81,7 +86,7 @@ const BodyComponent = () => {
                 key={restaurant.info.id}
                 to={`/restaurant/${restaurant.info.id}`}
               >
-                <RestaurantCard resData={restaurant} />
+                { restaurant.info.avgRating < 4 ? (<PromotedRestaurants resData={restaurant} />) : (<RestaurantCard resData={restaurant} />)}                
               </Link>
             );
           })
