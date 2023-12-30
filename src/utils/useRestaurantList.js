@@ -18,6 +18,7 @@ const useRestaurantList = () => {
       let apiResData =
         data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
           ?.restaurants;
+      console.log(data?.data?.cards);    
       setRestaurantList(apiResData);
       setFilteredListOfRestaurants(apiResData);
       setIsloading(false);
