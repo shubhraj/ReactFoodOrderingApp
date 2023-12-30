@@ -3,18 +3,22 @@ import { useParams } from "react-router";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
 import RestaurantCategory from "./RestaurantCategoy";
 
+import { useState } from "react";
+
 const RestaurantMenu = () => {
 
   const {resId} = useParams();  
     
   const resInfo = useRestaurantMenu(resId);
 
+  const [showIndex, setShowIndex] = useState(0);
+
   if(resInfo === null) {
     return <Shimmer />
   }
 
   const {name, cuisines, costForTwoMessage} = resInfo?.cards[0]?.card?.card?.info || "";
-  const {itemCards} = resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card?.card;
+  //const {itemCards} = resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card?.card;
   
   const category = resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter( card => card.card?.card?.["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory");
   //console.log(category);
@@ -25,7 +29,13 @@ const RestaurantMenu = () => {
       {/*category accordion*/}
       {
         category.map((item, index) => (
-               <RestaurantCategory data={item.card?.card} key={index} />
+            //RestaurantCategory is controlled component as its parent is controlling it using showItem state variable
+            <RestaurantCategory 
+                data={item.card?.card} 
+                key={index} 
+                showItems={index === showIndex ? true : false} 
+                setShowIndex={() => setShowIndex(index)}
+            />
         ))
       }
     </div>
