@@ -1,4 +1,4 @@
-import React, {lazy, Suspense} from "react";
+import React, {lazy, Suspense, useEffect, useState} from "react";
 import ReactDOM from "react-dom/client";
 import { Header } from "./components/Header";
 import BodyComponent from "./components/Body";
@@ -8,6 +8,8 @@ import Contact from "./components/Contact";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Footer from "./components/Footer";
+import UserContext from "./utils/UserContext";
+
 
 const Grocery = lazy(() => import("./components/Grocery"));
 
@@ -58,13 +60,30 @@ const heading = React.createElement(
 
 
 const AppLayout = () => {
+
+  //athentication code 
+  const [userName, setUserName] = useState(null);
+
+  useEffect(()=> {
+      //make API Call to get user Info
+      //lets use some dummy response
+      const data = {
+        name: "Shubham" 
+      };
+
+      setUserName(data.name);
+    },[]);
+
+
   //outlet works as a placeholder and it get replaced by the components linked to that route
   return (
-    <div className="app">  
-        <Header />
-        <Outlet /> 
-        <Footer /> 
-    </div>
+    <UserContext.Provider value={{loggedInUser: userName, setUserName}}>
+      <div className="app">  
+          <Header />
+          <Outlet /> 
+          <Footer /> 
+      </div>
+    </UserContext.Provider>
 )
 }
 

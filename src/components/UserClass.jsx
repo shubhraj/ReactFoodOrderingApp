@@ -1,4 +1,6 @@
-import React from "react";
+import React, {useContext} from "react";
+import UserContext from "../utils/UserContext";
+
 
 class UserClass extends React.Component {
     constructor(props) { 
@@ -15,7 +17,7 @@ class UserClass extends React.Component {
     async componentDidMount(){
         const res = await fetch("https://api.github.com/users/shubhraj");
         const data = await res.json();
-        console.log(data);
+       
         this.setState({
             userInfo: data
         });
@@ -30,6 +32,9 @@ class UserClass extends React.Component {
             <h2>Name : {name} </h2>
             <h3>Location : Pune</h3>
             <h4>Contact Me: @shubh_posts</h4>
+            <UserContext.Consumer>{(data) => (
+                 <h4 className="font-bold">{data.loggedInUser}</h4>
+            )}</UserContext.Consumer>
         </div>
         )
     }

@@ -1,11 +1,14 @@
 
+import { useState } from "react";
 import ItemList from "./ItemList";
 
 const RestaurantCategory = ({data, showItems, setShowIndex}) => {
 
+    const [isOpen, setIsOpen] = useState(true);
 
    const handleClick = () => {
         setShowIndex();
+        setIsOpen(!isOpen);
    }
 
     return (
@@ -15,7 +18,7 @@ const RestaurantCategory = ({data, showItems, setShowIndex}) => {
                     <span> { data.title} ({data.itemCards.length}) </span>
                     <span> {showItems ? "⬆️" : "⬇️"} </span>
                 </div>
-                {showItems && <ItemList items={data.itemCards}/>}
+                {(showItems && isOpen) && <ItemList items={data.itemCards}/>}
             </div>
         </div> 
     )

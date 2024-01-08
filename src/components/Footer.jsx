@@ -1,7 +1,7 @@
 const Footer = () => {
     return(
-        <footer className="footer">
-            <p>Author: Shubham Patil</p>
+        <footer className="footer border-t-2 p-2 m-4 font-semibold">
+            <p>Author: © Shubham Patil</p>
             <p><a href="mailto:shubham@example.com">shubham@example.com</a></p>
         </footer>
     )

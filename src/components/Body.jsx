@@ -5,10 +5,14 @@ import { Link } from "react-router-dom";
 
 import useRestaurantList from "../utils/useRestaurantList";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import { useContext } from "react";
+import UserContext from "../utils/UserContext";
+
 const BodyComponent = () => {
   // Whenever the state variables update,  React triggers the reconciliation cycle ( re-renders the components)
 
   const [searchText, setSearchText] = useState("");
+  const { loggedInUser ,setUserName} = useContext(UserContext);
 
   const {
     RestaurantList,
@@ -75,6 +79,11 @@ const BodyComponent = () => {
           >
             Top Rated Restaurants
           </button>
+        </div>
+        <div className="flex">
+          <label className="pl-12 pr-4">User Name</label>
+          <input className="border border-black px-2" onChange={(e) => setUserName(e.target.value)} value={loggedInUser}>
+          </input>
         </div>
       </div>
 
