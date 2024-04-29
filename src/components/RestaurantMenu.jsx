@@ -2,7 +2,7 @@ import Shimmer from "./Shimmer";
 import { useParams } from "react-router";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
 import RestaurantCategory from "./RestaurantCategoy";
-import resList from "../utils/mockdata";
+
 
 import { useState } from "react";
 
@@ -12,16 +12,16 @@ const RestaurantMenu = () => {
     
   const resInfo = useRestaurantMenu(resId);
 
-  const [showIndex, setShowIndex] = useState(0);
+  const [showIndex, setShowIndex] = useState(null);
 
   if(resInfo === null) {
     return <Shimmer />
   }
 
-  const {name, cuisines, costForTwoMessage} = resInfo?.cards[0]?.card?.card?.info || "";
+  const {name, cuisines, costForTwoMessage} = resInfo?.cards[2]?.card?.card?.info || "";
   //const {itemCards} = resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[4]?.card?.card;
   
-  const category = resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter( card => card.card?.card?.["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory");
+  const category = resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter( card => card.card?.card?.["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory");
   //console.log(category);
   return (
     <div className="menu text-center" >
