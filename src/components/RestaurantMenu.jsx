@@ -2,6 +2,7 @@ import Shimmer from "./Shimmer";
 import { useParams } from "react-router";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
 import RestaurantCategory from "./RestaurantCategoy";
+import resList from "../utils/mockdata";
 
 import { useState } from "react";
 
@@ -25,10 +26,10 @@ const RestaurantMenu = () => {
   return (
     <div className="menu text-center" >
       <h3 className="font-bold my-6 text-2xl">{name}</h3>
-      <p className="font-bold text-lg"> {cuisines.join(", ")} - {costForTwoMessage}</p>
+      <p className="font-bold text-lg"> {cuisines?.join(", ")} - {costForTwoMessage}</p>
       {/*category accordion*/}
       {
-        category.map((item, index) => (
+        category?.map((item, index) => (
             //RestaurantCategory is controlled component as its parent is controlling it using showItem state variable
             <RestaurantCategory 
                 data={item.card?.card} 
