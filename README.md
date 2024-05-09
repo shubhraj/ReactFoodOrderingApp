@@ -22,3 +22,14 @@ ex.  useState() , useEffect()
 - single responsibility principle
 - custom hooks
  
+
+ #Redux ->  Redux ToolKit
+ 1. install libraries 
+    - @reduxjs/toolkit
+    - react-redux
+
+ 2. Build Store
+ 3. Connect Store to App
+ 4. Create a Cart Slice
+ 5. Dispatch Action
+ 6. Read data using Selector
