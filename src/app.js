@@ -9,6 +9,9 @@ import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
 import Footer from "./components/Footer";
 import UserContext from "./utils/UserContext";
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
+import Cart from "./components/Cart";
 
 
 const Grocery = lazy(() => import("./components/Grocery"));
@@ -77,13 +80,15 @@ const AppLayout = () => {
 
   //outlet works as a placeholder and it get replaced by the components linked to that route
   return (
-    <UserContext.Provider value={{loggedInUser: userName, setUserName}}>
-      <div className="app">  
-          <Header />
-          <Outlet /> 
-          <Footer /> 
-      </div>
-    </UserContext.Provider>
+    <Provider store={appStore}>
+      <UserContext.Provider value={{loggedInUser: userName, setUserName}}>
+        <div className="app">  
+            <Header />
+            <Outlet /> 
+            <Footer /> 
+        </div>
+      </UserContext.Provider>
+    </Provider>
 )
 }
 
@@ -114,6 +119,10 @@ const appRouter = createBrowserRouter([
         path: "restaurant/:resId",
         element: <RestaurantMenu />
       },
+      {
+        path: '/cart',
+        element: <Cart />
+      }
     ],
     errorElement: <Error />
   }
