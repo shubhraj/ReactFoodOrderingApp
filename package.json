@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "this is react boilerplate",
   "scripts": {
+    "docker-start": "parcel index.html & parcel watch index.html --host 0.0.0.0",
     "start": "parcel index.html & parcel watch index.html",
     "build": "parcel build index.html",
     "test": "jest"
