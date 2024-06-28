@@ -12,7 +12,7 @@ const RestaurantMenu = () => {
     
   const resInfo = useRestaurantMenu(resId);
 
-  const [showIndex, setShowIndex] = useState(null);
+  const [openItemIndex, setOpenItemIndex] = useState(1);
 
   if(resInfo === null) {
     return <Shimmer />
@@ -32,10 +32,12 @@ const RestaurantMenu = () => {
         category?.map((item, index) => (
             //RestaurantCategory is controlled component as its parent is controlling it using showItem state variable
             <RestaurantCategory 
-                data={item.card?.card} 
                 key={index} 
-                showItems={index === showIndex ? true : false} 
-                setShowIndex={() => setShowIndex(index)}
+                data={item.card?.card} 
+                isOpen={index === openItemIndex} 
+                setIsOpen={() => {
+                  index === openItemIndex ? setOpenItemIndex(null) : setOpenItemIndex(index)
+                } }
             />
         ))
       }

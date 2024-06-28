@@ -33,7 +33,7 @@ export const Header = () => {
         </div> 
   
         <div className="nav-items flex items-center flex-wrap" >
-          <ul className="flex p-4 m-4">
+          <ul className="flex p-4 m-4 flex-wrap">
             {/* here instead of <a> tag we are using <Link> tag as it wont reload the page but will just rerender the component, due to this we can create SPA */}
              <li className="px-4">Online status : {onlineStatus ? "🟢" : "🔴"}</li>
              <li className="px-4"><Link to="/">Home</Link></li>
